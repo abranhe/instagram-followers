@@ -1,0 +1,35 @@
+{
+  "name": "instagram-followers",
+  "version": "1.0.0",
+  "description": "Get the number of followers of a person on Instagram",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava & xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abranhe/instagram-followers.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+  ],
+  "author": {
+    "name": "Carlos Abraham",
+    "email": "abraham@abranhe.com",
+    "web": "abranhe.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abranhe/instagram-followers/issues"
+  },
+  "homepage": "https://projects.abranhe.com/instagram-followers",
+	"dependencies": {
+    "got": "^9.3.2"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "xo": "^0.23.0"
+  }
+}
