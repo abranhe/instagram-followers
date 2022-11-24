@@ -7,7 +7,7 @@ const link = username => {
 
 module.exports = username => {
 	return got(link(username)).then(res => {
-		return res.body.split(',"edge_followed_by":{"count":')[1].split('},"')[0];
+		return res.body.split(',\\"edge_followed_by\\":{\\"count\\":')[1].split('},\\"')[0];
 	}).catch(error => {
 		if (error) {
 			return false;
